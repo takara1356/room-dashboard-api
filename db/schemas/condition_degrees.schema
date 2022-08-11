@@ -1,0 +1,9 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+create_table :condition_degrees, force: :cascade do |t|
+  t.float :temperature
+  t.float :humidity
+  t.float :pressure
+  t.float :co2
+  t.timestamps
+end
