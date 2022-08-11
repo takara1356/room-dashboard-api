@@ -1,0 +1,2 @@
+class ConditionDegree < ApplicationRecord
+end
